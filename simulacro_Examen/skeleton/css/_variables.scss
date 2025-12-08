@@ -1,0 +1,16 @@
+$colores:(
+    'Principal': rgb(212, 137, 234),
+    'Secundario': #cc6d669c,
+    'Terciario': #8a84d9,
+    'Cuaternario': #493439
+);
+
+
+:root {
+    --fuenteGeneral:12pt Verdana, Arial;
+    @each $color, $hex in $colores {
+        --color#{$color}: #{$hex};
+    }
+}
+ 
+ 

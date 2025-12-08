@@ -1,0 +1,59 @@
+.one.column,
+.one.columns {
+  width: 10%;
+  margin: 0;
+}
+
+.two.column,
+.two.columns {
+  width: 20%;
+  margin: 0;
+}
+
+.three.column,
+.three.columns {
+  width: 30%;
+  margin: 0;
+}
+
+.four.column,
+.four.columns {
+  width: 40%;
+  margin: 0;
+}
+
+.five.column,
+.five.columns {
+  width: 50%;
+  margin: 0;
+}
+
+.six.column,
+.six.columns {
+  width: 60%;
+  margin: 0;
+}
+
+.seven.column,
+.seven.columns {
+  width: 70%;
+  margin: 0;
+}
+
+.eight.column,
+.eight.columns {
+  width: 80%;
+  margin: 0;
+}
+
+.nine.column,
+.nine.columns {
+  width: 90%;
+  margin: 0;
+}
+
+.ten.column,
+.ten.columns {
+  width: 100%;
+  margin: 0;
+}

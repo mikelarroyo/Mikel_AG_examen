@@ -1,0 +1,13 @@
+body.oscuro {
+  background-color: var(--colorPrincipal);
+}
+body.oscuro a {
+  color: var(--colorCuaternario);
+}
+
+body.claro {
+  background-color: var(--colorSecundario);
+}
+body.claro a {
+  color: var(--colorTerciario);
+}
