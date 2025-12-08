@@ -1,0 +1,20 @@
+.footer-valoracion {
+  z-index: 1030;            /* que quede por encima del contenido */
+  background-color: var(--bs-body-bg);
+  border-top: 1px solid var(--bs-border-color);
+  padding: 0.5rem 0;
+}
+
+.footer-valoracion .estrellas svg {
+  cursor: pointer;
+  transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+.footer-valoracion .estrellas svg:hover {
+  transform: scale(1.2);
+  fill: #ffc107; /* amarillo bootstrap */
+}
+
+body {
+  padding-bottom: 70px; /* deja espacio para la barra fija */
+}
