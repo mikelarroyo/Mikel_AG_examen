@@ -1,0 +1,14 @@
+// Galería con float (1 a 12 imágenes por fila)
+@for $i from 1 through 12 {
+  .galeria-float-#{$i} {
+    overflow: hidden; // para contener los floats
+
+    > img {
+      float: left;
+      width: calc(100% / $i);
+      height: auto;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+  }
+}

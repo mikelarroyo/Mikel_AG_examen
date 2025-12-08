@@ -1506,68 +1506,268 @@ ul[class*=nav_] li {
 
 .boton-Principal {
   background-color: #d489ea;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.boton-Principal:hover {
-  background-color: #c45ee2;
 }
 
 .boton-Secundario {
   background-color: #cc6d669c;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.boton-Secundario:hover {
-  background-color: rgba(191, 73, 64, 0.6117647059);
 }
 
 .boton-Terciario {
   background-color: #8a84d9;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.boton-Terciario:hover {
-  background-color: #655dcd;
 }
 
 .boton-Cuaternario {
   background-color: #493439;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
-.boton-Cuaternario:hover {
-  background-color: #2b1f22;
+
+.galeria-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-1 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-2 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-3 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-4 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-5 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-5 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-6 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-6 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-7 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-7 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-8 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-8 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-9 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-9 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-10 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-10 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-11 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-11 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-12 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.galeria-12 > img {
+  flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+  max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+}
+
+.galeria-float-1 {
+  overflow: hidden;
+}
+.galeria-float-1 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-2 {
+  overflow: hidden;
+}
+.galeria-float-2 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-3 {
+  overflow: hidden;
+}
+.galeria-float-3 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-4 {
+  overflow: hidden;
+}
+.galeria-float-4 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-5 {
+  overflow: hidden;
+}
+.galeria-float-5 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-6 {
+  overflow: hidden;
+}
+.galeria-float-6 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-7 {
+  overflow: hidden;
+}
+.galeria-float-7 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-8 {
+  overflow: hidden;
+}
+.galeria-float-8 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-9 {
+  overflow: hidden;
+}
+.galeria-float-9 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-10 {
+  overflow: hidden;
+}
+.galeria-float-10 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-11 {
+  overflow: hidden;
+}
+.galeria-float-11 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-12 {
+  overflow: hidden;
+}
+.galeria-float-12 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
 }

@@ -1,0 +1,131 @@
+.galeria-float-1 {
+  overflow: hidden;
+}
+.galeria-float-1 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-2 {
+  overflow: hidden;
+}
+.galeria-float-2 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-3 {
+  overflow: hidden;
+}
+.galeria-float-3 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-4 {
+  overflow: hidden;
+}
+.galeria-float-4 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-5 {
+  overflow: hidden;
+}
+.galeria-float-5 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-6 {
+  overflow: hidden;
+}
+.galeria-float-6 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-7 {
+  overflow: hidden;
+}
+.galeria-float-7 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-8 {
+  overflow: hidden;
+}
+.galeria-float-8 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-9 {
+  overflow: hidden;
+}
+.galeria-float-9 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-10 {
+  overflow: hidden;
+}
+.galeria-float-10 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-11 {
+  overflow: hidden;
+}
+.galeria-float-11 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.galeria-float-12 {
+  overflow: hidden;
+}
+.galeria-float-12 > img {
+  float: left;
+  width: calc(100% / $i);
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
