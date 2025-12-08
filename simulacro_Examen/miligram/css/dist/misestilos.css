@@ -114,7 +114,7 @@
     flex: 0 0 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .col-lg-1 {
     flex: 0 0 8.333%;
   }
@@ -163,81 +163,48 @@
     flex: 0 0 100%;
   }
 }
-/* --- Tus colores personalizados (Milligram no los incluye) --- */
-.bg-secondary {
-  background-color: #3279c0;
+.cabecera {
+  height: auto;
+  border-bottom: 1px solid darkgray;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
-/* --- Sustituimos iconos de Bootstrap por estrellas unicode --- */
-.card-stars {
-  font-size: 1.2rem;
-  color: gold;
-  letter-spacing: 3px;
+.cabecera .nav-icon {
+  display: inline;
 }
 
-/* --- Equivalente a fs-5 y small --- */
-.card-title {
-  font-size: 1.1rem;
-  font-weight: 600;
+.cabecera .nav-list {
+  display: none;
 }
 
-.card-text {
-  font-size: 0.9rem;
-  /* en lugar de .small */
-  color: #555;
-}
-
-/* --- Contenedor del itinerario --- */
-.card-itinerario {
-  background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  padding: 12px;
+.cabecera .nav-burger {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: 100%;
+  font-size: 10px;
+  justify-content: flex-end;
 }
 
-/* --- Imagen itinerario --- */
-.card-img img {
-  width: 100%;
-  aspect-ratio: 4/3;
-  object-fit: cover;
-  border-radius: 8px;
+hr {
+  margin: 0.5rem;
 }
 
-/* --- Footer fijo inferior (si se usa) --- */
-.footer-valoracion {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #eee;
-  border-top: 1px solid #ccc;
-  text-align: center;
-  padding: 8px 0;
-}
+@media (min-width: 1200px) {
+  nav .nav-list {
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    justify-content: flex-end;
+  }
 
-.footer-valoracion {
-  z-index: 1030;
-  /* que quede por encima del contenido */
-  background-color: var(--bs-body-bg);
-  border-top: 1px solid var(--bs-border-color);
-  padding: 0.5rem 0;
-}
+  nav .nav-list li {
+    border: 2px solid darkgray;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: inline;
+  }
 
-.footer-valoracion .estrellas svg {
-  cursor: pointer;
-  transition: transform 0.2s ease, fill 0.2s ease;
-}
-
-.footer-valoracion .estrellas svg:hover {
-  transform: scale(1.2);
-  fill: #ffc107;
-  /* amarillo bootstrap */
-}
-
-body {
-  padding-bottom: 70px;
-  /* deja espacio para la barra fija */
+  nav .nav-burger {
+    display: none;
+  }
 }

@@ -103,7 +103,7 @@
     flex: 0 0 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .col-lg-1 {
     flex: 0 0 8.333%;
   }
@@ -141,78 +141,26 @@
     flex: 0 0 100%;
   }
 }
-/* --- Tus colores personalizados (Milligram no los incluye) --- */
-.bg-secondary {
-  background-color: #3279c0;
-}
-
-/* --- Sustituimos iconos de Bootstrap por estrellas unicode --- */
-.card-stars {
-  font-size: 1.2rem;
-  color: gold;
-  letter-spacing: 3px;
-}
-
-/* --- Equivalente a fs-5 y small --- */
-.card-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.card-text {
-  font-size: 0.9rem; /* en lugar de .small */
-  color: #555;
-}
-
-/* --- Contenedor del itinerario --- */
-.card-itinerario {
-  background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  padding: 12px;
+ul[class*=nav_] {
   display: flex;
+  gap: 1rem;
+}
+ul[class*=nav_].nav_horizontal {
+  flex-direction: row;
+}
+ul[class*=nav_].nav_horizontal_reverse {
+  flex-direction: row-reverse;
+}
+ul[class*=nav_].nav_vertical {
   flex-direction: column;
-  gap: 8px;
-  height: 100%;
 }
-
-/* --- Imagen itinerario --- */
-.card-img img {
-  width: 100%;
-  aspect-ratio: 4/3;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 8px;
+ul[class*=nav_].nav_vertical_reverse {
+  flex-direction: column-reverse;
 }
-
-/* --- Footer fijo inferior (si se usa) --- */
-.footer-valoracion {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #eee;
-  border-top: 1px solid #ccc;
-  text-align: center;
-  padding: 8px 0;
-}
-
-.footer-valoracion {
-  z-index: 1030; /* que quede por encima del contenido */
-  background-color: var(--bs-body-bg);
-  border-top: 1px solid var(--bs-border-color);
-  padding: 0.5rem 0;
-}
-
-.footer-valoracion .estrellas svg {
-  cursor: pointer;
-  transition: transform 0.2s ease, fill 0.2s ease;
-}
-
-.footer-valoracion .estrellas svg:hover {
-  transform: scale(1.2);
-  fill: #ffc107; /* amarillo bootstrap */
-}
-
-body {
-  padding-bottom: 70px; /* deja espacio para la barra fija */
+ul[class*=nav_] li {
+  display: block;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font: bold 1.2rem Arial, sans-serif;
 }/*# sourceMappingURL=misestilos.css.map */

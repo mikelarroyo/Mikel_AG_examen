@@ -1,0 +1,27 @@
+@mixin generar_columnas($maxColumns) {
+    .row_ejemplo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    @for $i from 1 through $maxColumns {
+        .col-#{$i} {
+            flex: 0 0 calc(100% / $maxColumns * $i);
+            width: calc(100% / $maxColumns * $i);
+            margin-bottom: 0;
+        }
+    }
+}
+
+@mixin generar_columnas_dimension($maxColumns, $dimension) {
+    @for $i from 1 through $maxColumns {
+        .col-#{$i}-#{$dimension} {
+            flex: 0 0 calc(100% / $maxColumns * $i);
+            width: calc(100% / $maxColumns * $i);
+            margin-bottom: 0;
+        }
+    }
+}
