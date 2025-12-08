@@ -1359,4 +1359,72 @@ ul[class*=nav_] li {
 .ten.columns {
   width: 100%;
   margin: 0;
+}
+
+.boton-Principal {
+  background-color: rgb(212, 137, 234);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Principal:hover {
+  background-color: rgb(196.2230215827, 93.7050359712, 226.2949640288);
+}
+
+.boton-Secundario {
+  background-color: rgba(204, 109, 102, 0.6117647059);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Secundario:hover {
+  background-color: rgba(191.25, 72.5, 63.75, 0.6117647059);
+}
+
+.boton-Terciario {
+  background-color: #8a84d9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Terciario:hover {
+  background-color: rgb(100.9378881988, 93.0372670807, 204.9627329193);
+}
+
+.boton-Cuaternario {
+  background-color: #493439;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Cuaternario:hover {
+  background-color: rgb(43.216, 30.784, 33.744);
 }/*# sourceMappingURL=mis_estilos.css.map */

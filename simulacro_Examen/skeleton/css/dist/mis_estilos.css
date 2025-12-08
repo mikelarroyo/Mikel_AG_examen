@@ -1503,3 +1503,71 @@ ul[class*=nav_] li {
   width: 100%;
   margin: 0;
 }
+
+.boton-Principal {
+  background-color: #d489ea;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Principal:hover {
+  background-color: #c45ee2;
+}
+
+.boton-Secundario {
+  background-color: #cc6d669c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Secundario:hover {
+  background-color: rgba(191, 73, 64, 0.6117647059);
+}
+
+.boton-Terciario {
+  background-color: #8a84d9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Terciario:hover {
+  background-color: #655dcd;
+}
+
+.boton-Cuaternario {
+  background-color: #493439;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boton-Cuaternario:hover {
+  background-color: #2b1f22;
+}

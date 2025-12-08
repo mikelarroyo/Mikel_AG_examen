@@ -25,6 +25,37 @@
     
   }
 
-    
 } 
+
+$colores-botones:(
+    'Principal': rgb(212, 137, 234),
+    'Secundario': #cc6d669c,
+    'Terciario': #8a84d9,
+    'Cuaternario': #493439
+);
+
+@mixin generar-botones {
+  @each $nombre, $color in $colores-botones {
+    .boton-#{$nombre} {
+      background-color: $color;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: darken($color, 10%);
+      }
+    }
+  }
+}
+
+
+
 
