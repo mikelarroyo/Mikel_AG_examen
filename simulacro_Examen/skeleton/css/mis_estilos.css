@@ -1362,11 +1362,11 @@ ul[class*=nav_] li {
 }
 
 .boton-Principal {
-  background-color: rgb(212, 137, 234);
+  background-color: rgb(137, 234, 169);
 }
 
 .boton-Secundario {
-  background-color: rgba(204, 109, 102, 0.6117647059);
+  background-color: rgba(224, 16, 1, 0.6117647059);
 }
 
 .boton-Terciario {
