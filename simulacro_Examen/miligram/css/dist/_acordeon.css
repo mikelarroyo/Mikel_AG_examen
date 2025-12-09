@@ -1,0 +1,19 @@
+.acordeon .item {
+  border-bottom: 1px solid #ccc;
+}
+
+.acordeon-titulo {
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  background: #eee;
+}
+
+.acordeon-contenido {
+  display: none;
+  padding: 10px;
+}
+
+.item.open .acordeon-contenido {
+  display: block;
+}

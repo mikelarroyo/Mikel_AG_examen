@@ -1,0 +1,13 @@
+//galeria con ajuste para gap
+@for $i from 1 through 12 {
+    .galeria-#{$i} {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        > img {
+            flex: 0 0 calc((100% / $i) - (10px * ($i - 1) / $i));
+            max-width: calc((100% / $i) - (10px * ($i - 1) / $i));
+        }
+    }
+}

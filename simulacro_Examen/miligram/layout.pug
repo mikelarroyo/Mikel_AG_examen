@@ -2,17 +2,35 @@ doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1")
-    link(rel="stylesheet", href="../css/milligram.min.css")
-    link(rel="stylesheet", href="../css/misestilos.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="../css/milligram.min.css")
+    link(rel="stylesheet" href="../css/misestilos.css")
     title Actividad 8 - Miligram Grid
 
-  body
-    header 
+  body.claro
+    header.oscuro
       include navbar
-  
+
     main
       block content
 
+      .container
+
+        .row
+
+          .col-6
+            include acordeon
+
+      .container
+        .row
+          .col-6
+            include carrusel
+
+
+
     footer
       block footer
+
+    block scripts
+      script(src="../js/acordeon.js")
+      script(src="../js/carrousel.js")

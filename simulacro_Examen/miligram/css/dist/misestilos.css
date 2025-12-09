@@ -1,210 +1,512 @@
-/* === GRID TIPO BOOTSTRAP === */
+@charset "UTF-8";
+/* BASE: columnas móviles */
+/* RESPONSIVE al estilo Bootstrap */
 .row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  padding: 0.5rem;
   width: 100%;
 }
 
-[class*=col-] {
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-/* 12 columnas */
 .col-1 {
-  flex: 0 0 8.333%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-2 {
-  flex: 0 0 16.666%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-3 {
-  flex: 0 0 25%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-4 {
-  flex: 0 0 33.333%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-5 {
-  flex: 0 0 41.666%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-6 {
-  flex: 0 0 50%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-7 {
-  flex: 0 0 58.333%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-8 {
-  flex: 0 0 66.666%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-9 {
-  flex: 0 0 75%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-10 {
-  flex: 0 0 83.333%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-11 {
-  flex: 0 0 91.666%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
 .col-12 {
-  flex: 0 0 100%;
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
 }
 
-/* DEMO */
-.rellenitos {
-  background: #bfbde0;
-  border: 1px solid #fff;
-}
+@media (min-width: 576px) {
+  .col-sm-1 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
 
+  .col-sm-2 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-3 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-4 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-5 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-6 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-7 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-8 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-9 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-10 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-11 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-sm-12 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+}
 @media (min-width: 768px) {
   .col-md-1 {
-    flex: 0 0 8.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-2 {
-    flex: 0 0 16.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-3 {
-    flex: 0 0 25%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-4 {
-    flex: 0 0 33.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-5 {
-    flex: 0 0 41.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-6 {
-    flex: 0 0 50%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-7 {
-    flex: 0 0 58.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-8 {
-    flex: 0 0 66.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-9 {
-    flex: 0 0 75%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-10 {
-    flex: 0 0 83.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-11 {
-    flex: 0 0 91.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-md-12 {
-    flex: 0 0 100%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .col-lg-1 {
-    flex: 0 0 8.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-2 {
-    flex: 0 0 16.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-3 {
-    flex: 0 0 25%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-4 {
-    flex: 0 0 33.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-5 {
-    flex: 0 0 41.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-6 {
-    flex: 0 0 50%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-7 {
-    flex: 0 0 58.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-8 {
-    flex: 0 0 66.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-9 {
-    flex: 0 0 75%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-10 {
-    flex: 0 0 83.333%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-11 {
-    flex: 0 0 91.666%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
   .col-lg-12 {
-    flex: 0 0 100%;
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 }
-.cabecera {
-  height: auto;
-  border-bottom: 1px solid darkgray;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.cabecera .nav-icon {
-  display: inline;
-}
-
-.cabecera .nav-list {
-  display: none;
-}
-
-.cabecera .nav-burger {
-  display: flex;
-  font-size: 10px;
-  justify-content: flex-end;
-}
-
-hr {
-  margin: 0.5rem;
-}
-
 @media (min-width: 1200px) {
-  nav .nav-list {
-    display: flex;
-    width: 100%;
-    font-size: 1.5rem;
-    padding-top: 20px;
-    justify-content: flex-end;
+  .col-xl-1 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
-  nav .nav-list li {
-    border: 2px solid darkgray;
-    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    display: inline;
+  .col-xl-2 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
   }
 
-  nav .nav-burger {
+  .col-xl-3 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-4 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-5 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-6 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-7 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-8 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-9 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-10 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-11 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+
+  .col-xl-12 {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+  }
+}
+/* CONTENEDOR FLEX */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* IMPORTANTE */
+}
+
+ul[class*=nav_] {
+  display: flex;
+  margin: 0;
+  gap: 1rem;
+}
+ul[class*=nav_].nav_horizontal {
+  flex-direction: row;
+}
+ul[class*=nav_].nav_vertical {
+  flex-direction: column;
+}
+ul[class*=nav_] li {
+  list-style: none;
+  padding: 0.5rem;
+}
+ul[class*=nav_] li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-burger {
+  display: none;
+  cursor: pointer;
+}
+.nav-burger svg {
+  width: 32px;
+  height: 32px;
+  fill: #462828;
+}
+
+.nav-search {
+  cursor: pointer;
+}
+.nav-search svg {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}
+
+@media (max-width: 768px) {
+  ul[class*=nav_] {
     display: none;
   }
+
+  .nav-burger {
+    display: block;
+  }
+}
+:root {
+  --fuenteGeneral:12pt Verdana, Arial;
+  --colorPrincipal: #040802;
+  --colorSecundario: #ffffff;
+  --colorTerciario: #f880e8;
+  --colorCuaternario: #000000;
+}
+
+body.oscuro {
+  background-color: var(--colorPrincipal);
+}
+body.oscuro a {
+  color: var(--colorSecundario);
+}
+body.oscuro h3 {
+  color: var(--colorSecundario);
+}
+body.oscuro p {
+  color: var(--colorSecundario);
+}
+
+body.claro {
+  background-color: var(--colorTerciario);
+}
+body.claro a {
+  color: var(--colorCuaternario);
+}
+body.claro h3 {
+  color: var(--colorCuaternario);
+}
+body.claro p {
+  color: var(--colorCuaternario);
+}
+
+header.oscuro {
+  background-color: var(--colorPrincipal);
+}
+header.oscuro a {
+  color: var(--colorSecundario);
+}
+header.oscuro h3 {
+  color: var(--colorSecundario);
+}
+header.oscuro p {
+  color: var(--colorSecundario);
+}
+
+header.claro {
+  background-color: var(--colorTerciario);
+}
+header.claro a {
+  color: var(--colorCuaternario);
+}
+header.claro h3 {
+  color: var(--colorCuaternario);
+}
+header.claro p {
+  color: var(--colorCuaternario);
+}
+
+a {
+  color: var(--colorPrincipal);
+}
+
+h3 {
+  color: var(--colorPrincipal);
+}
+
+p {
+  color: var(--colorPrincipal);
+}
+
+.acordeon .item {
+  border-bottom: 1px solid #ccc;
+}
+
+.acordeon-titulo {
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  background: #eee;
+}
+
+.acordeon-contenido {
+  display: none;
+  padding: 10px;
+}
+
+.item.open .acordeon-contenido {
+  display: block;
+}
+
+.carrusel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+.carrusel .carrusel-contenedor {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.carrusel .carrusel-contenedor img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.carrusel .carrusel-contenedor img.activo {
+  opacity: 1;
+  position: relative;
+}
+.carrusel .carrusel-controles {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.carrusel .carrusel-controles button {
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.carrusel .carrusel-controles button:hover {
+  background: rgba(0, 0, 0, 0.7);
 }

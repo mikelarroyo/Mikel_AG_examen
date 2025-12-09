@@ -1,0 +1,51 @@
+body.oscuro {
+  background-color: var(--colorPrincipal);
+}
+body.oscuro a {
+  color: var(--colorSecundario);
+}
+body.oscuro h3 {
+  color: var(--colorSecundario);
+}
+body.oscuro p {
+  color: var(--colorSecundario);
+}
+
+body.claro {
+  background-color: var(--colorTerciario);
+}
+body.claro a {
+  color: var(--colorCuaternario);
+}
+body.claro h3 {
+  color: var(--colorCuaternario);
+}
+body.claro p {
+  color: var(--colorCuaternario);
+}
+
+header.oscuro {
+  background-color: var(--colorPrincipal);
+}
+header.oscuro a {
+  color: var(--colorSecundario);
+}
+header.oscuro h3 {
+  color: var(--colorSecundario);
+}
+header.oscuro p {
+  color: var(--colorSecundario);
+}
+
+header.claro {
+  background-color: var(--colorTerciario);
+}
+header.claro a {
+  color: var(--colorCuaternario);
+}
+header.claro h3 {
+  color: var(--colorCuaternario);
+}
+header.claro p {
+  color: var(--colorCuaternario);
+}

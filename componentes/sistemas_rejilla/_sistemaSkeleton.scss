@@ -1,0 +1,70 @@
+/* 📌 CONFIGURACIÓN */
+$gutter: 4%; // separación lateral fija
+$col-base: 4.666666667%; // tamaño de 1 columna
+$col-increment: 8.666666667%; // incremento entre columnas
+$columns: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve;
+
+/* 📌 RESET DE FILAS */
+.row::after,
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 📌 Columnas base */
+.column,
+.columns {
+  float: left;
+  box-sizing: border-box;
+  margin-left: $gutter;
+}
+
+/* Primera columna sin margen */
+.row > .column:first-child,
+.row > .columns:first-child {
+  margin-left: 0;
+}
+
+/* 📌 MIXIN GENERAL */
+@mixin generar_col($dimension: "") {
+  $i: 0;
+
+  @each $c in $columns {
+    // Nombre de clase final
+    $class: if($dimension == "", "#{$c}", "#{$c}-#{$dimension}");
+
+    .#{$class}.column,
+    .#{$class}.columns {
+      width: calc(#{$col-base} + #{$i} * #{$col-increment});
+    }
+
+    // Offsets
+    .offset-#{$dimension}-by-#{$c}.column,
+    .offset-#{$dimension}-by-#{$c}.columns {
+      margin-left: calc(#{$gutter} + #{$i} * #{$col-increment});
+    }
+
+    $i: $i + 1;
+  }
+}
+
+/* 📌 Mobile First (sin sufijo) */
+@include generar_col("");
+
+/* 📌 Breakpoints responsive */
+@media (min-width: 576px) {
+  @include generar_col("sm");
+}
+
+@media (min-width: 768px) {
+  @include generar_col("md");
+}
+
+@media (min-width: 992px) {
+  @include generar_col("lg");
+}
+
+@media (min-width: 1200px) {
+  @include generar_col("xl");
+}

@@ -1,0 +1,59 @@
+body.oscuro
+{
+    background-color: var(--colorPrincipal);
+    a{
+        color: var(--colorSecundario);
+    }
+
+    h3{
+        color: var(--colorSecundario);
+    }
+    p{
+        color: var(--colorSecundario);
+    }
+
+}
+body.claro
+{
+    background-color: var(--colorTerciario);
+    a{
+        color: var(--colorCuaternario);
+    }
+    h3{
+        color: var(--colorCuaternario);
+    }
+    p {
+        color: var(--colorCuaternario);
+    }
+
+}
+
+header.oscuro
+{
+    background-color: var(--colorPrincipal);
+    a{
+        color: var(--colorSecundario);
+    }
+
+    h3{
+        color: var(--colorSecundario);
+    }
+    p{
+        color: var(--colorSecundario);
+    }
+
+}
+header.claro
+{
+    background-color: var(--colorTerciario);
+    a{
+        color: var(--colorCuaternario);
+    }
+    h3{
+        color: var(--colorCuaternario);
+    }
+    p {
+        color: var(--colorCuaternario);
+    }
+
+}
