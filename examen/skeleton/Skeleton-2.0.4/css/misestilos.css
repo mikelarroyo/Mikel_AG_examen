@@ -17,4 +17,19 @@
   > *:nth-child(5) {
     display: none;
   }
+}
+.row-col {
+  flex-direction: column;
+}
+
+.row-4-8 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-4-8 > *:first-child {
+  width: 30.6666666667%;
+}
+.row-4-8 > *:nth-child(2) {
+  width: 65.3333333333%;
+  margin-left: 4%;
 }/*# sourceMappingURL=misestilos.css.map */

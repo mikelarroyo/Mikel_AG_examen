@@ -1,0 +1,14 @@
+.row-4-8 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    > *:first-child {
+        width: 30.6666666667%;
+    }
+
+    > *:nth-child(2) {
+        width: 65.3333333333%;
+        margin-left: 4%;
+    }
+}
+
