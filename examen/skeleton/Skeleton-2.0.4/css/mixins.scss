@@ -14,3 +14,8 @@ $breakpoints: (
     'xl': 1400px
 ) !default;
 
+@include hide-column('md', 2);
+@include hide-column('sm', 3);
+@include hide-column('lg', 4);
+@include hide-column('xl', 5);
+
