@@ -1,0 +1,26 @@
+ul[class*="nav_"] //selector de css
+{
+    display: flex;
+    gap:1rem;
+    &.nav_horizontal{  //jugando con sass 
+        flex-direction: row;
+    }
+    &.nav_horizontal_reverse{
+        flex-direction: row-reverse;
+    }
+    &.nav_vertical{
+        flex-direction: column;
+    }
+    &.nav_vertical_reverse{
+        flex-direction: column-reverse;
+    }
+    li{
+        display:block;
+        border: 1px solid #000;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font: bold 1.2rem Arial, sans-serif;
+    }
+}
+
+//LA CLAVE DE ESTO SON LOS EJES Y LOS HIJOS DE FLEX.
