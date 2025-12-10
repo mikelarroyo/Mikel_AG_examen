@@ -510,3 +510,84 @@ p {
 .carrusel .carrusel-controles button:hover {
   background: rgba(0, 0, 0, 0.7);
 }
+
+.carrusel {
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.carrusel div {
+  display: flex;
+  position: absolute;
+  animation: pasarela calc(var(--tiempo) * var(--numeroImagenes)) infinite;
+  animation-timing-function: steps(var(--numeroImagenes));
+  width: calc(400px * var(--numeroImagenes));
+}
+
+.carrusel div img {
+  width: 400px;
+  height: 400px;
+  animation: lateral var(--tiempo) ease-in-out infinite forwards;
+  opacity: 0;
+}
+
+.carrusel.lateral div img {
+  width: 400px;
+  height: 400px;
+  animation: lateral var(--tiempo) ease-in-out infinite forwards;
+  opacity: 0;
+}
+
+.carrusel.arriba div img {
+  width: 400px;
+  height: 400px;
+  animation: arriba var(--tiempo) ease-in-out infinite forwards;
+  opacity: 0;
+}
+
+@keyframes pasarela {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * var(--numeroImagenes)));
+  }
+}
+@keyframes lateral {
+  0% {
+    transform: translateX(100%) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%) scale(0.8);
+    opacity: 0;
+  }
+}
+@keyframes arriba {
+  0% {
+    transform: translateY(-100%) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%) scale(0.8);
+    opacity: 0;
+  }
+}
