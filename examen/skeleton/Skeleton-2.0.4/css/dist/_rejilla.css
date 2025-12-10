@@ -1,0 +1,66 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col-1 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-2 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-3 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-4 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-5 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-6 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-7 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-8 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-9 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-10 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-11 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
+
+.col-12 {
+  flex: 0 0 calc(100% / $maxColumns * $i);
+  width: calc(100% / $maxColumns * $i);
+}
