@@ -1,10 +1,8 @@
-/* CONTENEDOR FLEX */
 .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* IMPORTANTE */
 }
 
 ul[class*=nav_] {
@@ -48,10 +46,10 @@ ul[class*=nav_] li a {
 .nav-search svg {
   width: 28px;
   height: 28px;
-  fill: white;
+  fill: #050505;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   ul[class*=nav_] {
     display: none;
   }
